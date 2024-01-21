@@ -1,3 +1,5 @@
+//No sea vacía
+//Primera letra sea
 fun verificaCadena(cadena:String): Boolean {
     return if(!cadena.isEmpty()){
         if(cadena[0].isLetter() || cadena[0].equals('_')) {
@@ -5,7 +7,6 @@ fun verificaCadena(cadena:String): Boolean {
         }else{
             false
         }
-
     }else{
         false
     }
